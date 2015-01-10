@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2014-2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -50,6 +50,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/lge/g2-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/lge/g2-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
+    vendor/lge/g2-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
+    vendor/lge/g2-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
+    vendor/lge/g2-common/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
+    vendor/lge/g2-common/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
+    vendor/lge/g2-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
+    vendor/lge/g2-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/lge/g2-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/lge/g2-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/lge/g2-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -65,19 +71,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/lge/g2-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lge/g2-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/lge/g2-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/lge/g2-common/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/lge/g2-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/lge/g2-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lge/g2-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/lge/g2-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/lge/g2-common/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
-    vendor/lge/g2-common/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
-    vendor/lge/g2-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/lge/g2-common/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
     vendor/lge/g2-common/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/lge/g2-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
