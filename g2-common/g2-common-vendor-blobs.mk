@@ -78,7 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/lge/g2-common/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
     vendor/lge/g2-common/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
-    vendor/lge/g2-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/lge/g2-common/proprietary/lib/hw/flp.msm8974.so:system/lib/hw/flp.msm8974.so \
     vendor/lge/g2-common/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
     vendor/lge/g2-common/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/lge/g2-common/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
@@ -86,9 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/g2-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/g2-common/proprietary/lib/libLGsk.so:system/lib/libLGsk.so \
-    vendor/lge/g2-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/g2-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/lge/g2-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lge/g2-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/g2-common/proprietary/lib/libloc_xtra.so:system/lib/libloc_xtra.so \
     vendor/lge/g2-common/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
@@ -187,9 +185,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/lge/g2-common/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
