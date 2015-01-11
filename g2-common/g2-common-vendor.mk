@@ -19,10 +19,8 @@ DEVICE_PACKAGE_OVERLAYS += vendor/lge/g2-common/overlay
 
 PRODUCT_PACKAGES += \
     TimeService \
-    qcrilmsgtunnel \
     shutdownlistener \
     qcnvitems \
-    qcrilhook \
     libHevcSwDecoder \
     libmm-abl \
     libtime_genoff \
