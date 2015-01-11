@@ -18,8 +18,6 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/lge/g2-common/overlay
 
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
-    com.qualcomm.services.location \
     TimeService \
     qcrilmsgtunnel \
     shutdownlistener \
