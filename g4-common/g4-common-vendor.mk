@@ -16,6 +16,9 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    libtime_genoff
+    TimeService \
+    libTimeService \
+    libtime_genoff \
+    libFlacSwDec
 
 $(call inherit-product, vendor/lge/g4-common/g4-common-vendor-blobs.mk)
