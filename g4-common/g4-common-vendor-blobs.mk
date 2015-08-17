@@ -58,11 +58,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/lge/g4-common/proprietary/etc/acdbdata/workspaceFile.qwsp:system/etc/acdbdata/workspaceFile.qwsp \
     vendor/lge/g4-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/lge/g4-common/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
-    vendor/lge/g4-common/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
-    vendor/lge/g4-common/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
-    vendor/lge/g4-common/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
-    vendor/lge/g4-common/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
+    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
+    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
+    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
+    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
+    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
     vendor/lge/g4-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
