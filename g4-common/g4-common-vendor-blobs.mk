@@ -773,8 +773,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin \
     vendor/lge/g4-common/proprietary/etc/firmware/BCM4335_003.001.009.0025.0000_LGIT_TWCS-B221D_TESTONLY.hcd:system/etc/firmware/BCM4335_003.001.009.0025.0000_LGIT_TWCS-B221D_TESTONLY.hcd
 
-#gps:
-
+#GPS
 PRODUCT_COPY_FILES += \
 	vendor/lge/g4-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	vendor/lge/g4-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
@@ -785,3 +784,8 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/g4-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
 	vendor/lge/g4-common/proprietary/etc/lgodm/gps.cfg:system/etc/lgodm/gps.cfg \
 	vendor/lge/g4-common/proprietary/etc/lgodm/gps_sap_pdr.cfg:system/etc/lgodm/gps_sap_pdr.cfg
+
+#ril
+PRODUCT_COPY_FILES += \
+	vendor/lge/g4-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
+	vendor/lge/g4-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so
