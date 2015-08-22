@@ -16,9 +16,27 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    TimeService \
+    com.qualcomm.location
+
+PRODUCT_PACKAGES += \
+    qcrilmsgtunnel \
+    shutdownlistener \
+    TimeService
+
+PRODUCT_PACKAGES += \
+    qcnvitems \
+    qcrilhook
+
+PRODUCT_PACKAGES += \
+    libmm-abl
+
+PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libloc_ds_api \
     libTimeService \
-    libtime_genoff \
     libFlacSwDec
+    
+PRODUCT_PACKAGES += \
+    libtime_genoff
 
 $(call inherit-product, vendor/lge/g4-common/g4-common-vendor-blobs.mk)
