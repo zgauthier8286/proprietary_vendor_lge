@@ -58,11 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/lge/g4-common/proprietary/etc/acdbdata/workspaceFile.qwsp:system/etc/acdbdata/workspaceFile.qwsp \
     vendor/lge/g4-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
-    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
-    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
-    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
-    vendor/lge/g4-common/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
     vendor/lge/g4-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
@@ -77,9 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/lge/g4-common/proprietary/etc/firmware/wcd9320/wcd9320_anc.bin:system/etc/firmware/wcd9320/wcd9320_anc.bin \
-    vendor/lge/g4-common/proprietary/etc/firmware/wcd9320/wcd9320_mad_audio.bin:system/etc/firmware/wcd9320/wcd9320_mad_audio.bin \
-    vendor/lge/g4-common/proprietary/etc/firmware/wcd9320/wcd9320_mbhc.bin:system/etc/firmware/wcd9320/wcd9320_mbhc.bin \
     vendor/lge/g4-common/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/g4-common/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/g4-common/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
@@ -97,34 +89,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/lge/g4-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lge/g4-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/lge/g4-common/proprietary/etc/firmware/mlserver.b00:system/etc/firmware/mlserver.b00 \
-    vendor/lge/g4-common/proprietary/etc/firmware/mlserver.b01:system/etc/firmware/mlserver.b01 \
-    vendor/lge/g4-common/proprietary/etc/firmware/mlserver.b02:system/etc/firmware/mlserver.b02 \
-    vendor/lge/g4-common/proprietary/etc/firmware/mlserver.b03:system/etc/firmware/mlserver.b03 \
-    vendor/lge/g4-common/proprietary/etc/firmware/mlserver.mdt:system/etc/firmware/mlserver.mdt \
-    vendor/lge/g4-common/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
-    vendor/lge/g4-common/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
-    vendor/lge/g4-common/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
-    vendor/lge/g4-common/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
-    vendor/lge/g4-common/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
-    vendor/lge/g4-common/proprietary/etc/firmware/secureks.b00:system/etc/firmware/secureks.b00 \
-    vendor/lge/g4-common/proprietary/etc/firmware/secureks.b01:system/etc/firmware/secureks.b01 \
-    vendor/lge/g4-common/proprietary/etc/firmware/secureks.b02:system/etc/firmware/secureks.b02 \
-    vendor/lge/g4-common/proprietary/etc/firmware/secureks.b03:system/etc/firmware/secureks.b03 \
-    vendor/lge/g4-common/proprietary/etc/firmware/secureks.mdt:system/etc/firmware/secureks.mdt \
-    vendor/lge/g4-common/proprietary/etc/firmware/securemm.b00:system/etc/firmware/securemm.b00 \
-    vendor/lge/g4-common/proprietary/etc/firmware/securemm.b01:system/etc/firmware/securemm.b01 \
-    vendor/lge/g4-common/proprietary/etc/firmware/securemm.b02:system/etc/firmware/securemm.b02 \
-    vendor/lge/g4-common/proprietary/etc/firmware/securemm.b03:system/etc/firmware/securemm.b03 \
-    vendor/lge/g4-common/proprietary/etc/firmware/securemm.mdt:system/etc/firmware/securemm.mdt \
     vendor/lge/g4-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
-    vendor/lge/g4-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/lge/g4-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lge/g4-common/proprietary/lib64/libril.so:system/lib64/libril.so \
-    vendor/lge/g4-common/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.vendor.msm8992.so \
+    vendor/lge/g4-common/proprietary/lib/hw/camera.vendor.msm8992.so:system/lib/hw/camera.vendor.msm8992.so \
     vendor/lge/g4-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-    vendor/lge/g4-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/lge/g4-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lge/g4-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/g4-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/g4-common/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
@@ -151,16 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/firmware/BCM4339_003.001.009.0108.0501_LGE_P1-EU_FM_ORC.hcd:system/vendor/firmware/BCM4339_003.001.009.0108.0501_LGE_P1-EU_FM_ORC.hcd \
     vendor/lge/g4-common/proprietary/vendor/firmware/libpn547_fw_C9.so:system/vendor/firmware/libpn547_fw_C9.so \
     vendor/lge/g4-common/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
-    vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.b00:system/etc/firmware/hashstorage.b00 \
-    vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.b01:system/etc/firmware/hashstorage.b01 \
-    vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.b02:system/etc/firmware/hashstorage.b02 \
-    vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.b03:system/etc/firmware/hashstorage.b03 \
-    vendor/lge/g4-common/proprietary/etc/firmware/hashstorage.mdt:system/etc/firmware/hashstorage.mdt \
-    vendor/lge/g4-common/proprietary/etc/firmware/keymaster.b00:system/etc/firmware/keymaster.b00 \
-    vendor/lge/g4-common/proprietary/etc/firmware/keymaster.b01:system/etc/firmware/keymaster.b01 \
-    vendor/lge/g4-common/proprietary/etc/firmware/keymaster.b02:system/etc/firmware/keymaster.b02 \
-    vendor/lge/g4-common/proprietary/etc/firmware/keymaster.b03:system/etc/firmware/keymaster.b03 \
-    vendor/lge/g4-common/proprietary/etc/firmware/keymaster.mdt:system/etc/firmware/keymaster.mdt \
     vendor/lge/g4-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/lge/g4-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lge/g4-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -325,7 +283,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libFidoCrypto.so:system/vendor/lib/libFidoCrypto.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
-    vendor/lge/g4-common/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libGPTEE.so:system/vendor/lib/libGPTEE.so \
@@ -363,7 +320,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/lge/g4-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera2_aec_lg.so:system/vendor/lib/libmmcamera2_aec_lg.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera2_awb_lg.so:system/vendor/lib/libmmcamera2_awb_lg.so \
@@ -541,8 +497,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libswev8.so:system/vendor/lib/libswev8.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/lge/g4-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
-    vendor/lge/g4-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
@@ -639,7 +593,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib64/libextendedremotedisplay.so:system/vendor/lib64/libextendedremotedisplay.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libFidoCrypto.so:system/vendor/lib64/libFidoCrypto.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
-    vendor/lge/g4-common/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libGPTEE.so:system/vendor/lib64/libGPTEE.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
@@ -671,7 +624,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
-    vendor/lge/g4-common/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libmmcamera2_sensor_debug.so:system/vendor/lib64/libmmcamera2_sensor_debug.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
@@ -758,8 +710,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/lge/g4-common/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
-    vendor/lge/g4-common/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
@@ -803,16 +753,16 @@ PRODUCT_COPY_FILES += \
 
 #GPS
 PRODUCT_COPY_FILES += \
-	vendor/lge/g4-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-	vendor/lge/g4-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-	vendor/lge/g4-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-	vendor/lge/g4-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-	vendor/lge/g4-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-	vendor/lge/g4-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
-	vendor/lge/g4-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-	vendor/lge/g4-common/proprietary/etc/lgodm/gps.cfg:system/etc/lgodm/gps.cfg \
-	vendor/lge/g4-common/proprietary/etc/lgodm/gps_sap_pdr.cfg:system/etc/lgodm/gps_sap_pdr.cfg \
-	vendor/lge/g4-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/lge/g4-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/lge/g4-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/lge/g4-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/lge/g4-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/lge/g4-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
+    vendor/lge/g4-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
+    vendor/lge/g4-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
+    vendor/lge/g4-common/proprietary/etc/lgodm/gps.cfg:system/etc/lgodm/gps.cfg \
+    vendor/lge/g4-common/proprietary/etc/lgodm/gps_sap_pdr.cfg:system/etc/lgodm/gps_sap_pdr.cfg \
+    vendor/lge/g4-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml
 
 #ril
 PRODUCT_COPY_FILES += \
@@ -868,4 +818,3 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libvss_bsp_qcci.so:system/lib64/libvss_bsp_qcci.so \
     vendor/lge/g4-common/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
     vendor/lge/g4-common/proprietary/lib64/libvss_common_iface.so:system/lib64/libvss_common_iface.so
-
