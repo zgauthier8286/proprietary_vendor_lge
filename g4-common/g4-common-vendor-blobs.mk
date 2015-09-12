@@ -276,7 +276,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/lge/g4-common/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libextendedremotedisplay.so:system/vendor/lib/libextendedremotedisplay.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
@@ -588,7 +587,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
-    vendor/lge/g4-common/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/lib64/libEGL_adreno.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libExtendedExtractor.so:system/vendor/lib64/libExtendedExtractor.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libextendedremotedisplay.so:system/vendor/lib64/libextendedremotedisplay.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libFidoCrypto.so:system/vendor/lib64/libFidoCrypto.so \
