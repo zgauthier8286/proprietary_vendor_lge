@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lge/g4-common/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/lge/g4-common/proprietary/bin/bdaddr_loader:system/bin/bdaddr_loader \
+    vendor/lge/g4-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lge/g4-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/lge/g4-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/g4-common/proprietary/bin/imscmservice:system/bin/imscmservice \
@@ -44,6 +45,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/lge/g4-common/proprietary/bin/radish:system/bin/radish \
     vendor/lge/g4-common/proprietary/bin/rfs_access:system/bin/rfs_access \
+    vendor/lge/g4-common/proprietary/bin/rild:system/bin/rild \
+    vendor/lge/g4-common/proprietary/bin/rctd:system/bin/rctd \
+    vendor/lge/g4-common/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/lge/g4-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/g4-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/g4-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
@@ -92,6 +96,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
     vendor/lge/g4-common/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/lge/g4-common/proprietary/lib/hw/camera.vendor.msm8992.so:system/lib/hw/camera.vendor.msm8992.so \
+    vendor/lge/g4-common/proprietary/lib/hw/wbc_hal.default.so:system/lib/hw/wbc_hal.default.so \
+    vendor/lge/g4-common/proprietary/lib64/hw/wbc_hal.default.so:system/lib64/hw/wbc_hal.default.so \
     vendor/lge/g4-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/lge/g4-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/g4-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -172,6 +178,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libchromatix_imx234_cpp_flash_snapshot_open.so:system/vendor/lib/libchromatix_imx234_cpp_flash_snapshot_open.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libchromatix_imx208_common.so:system/vendor/lib/libchromatix_imx208_common.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libchromatix_imx208_common_video.so:system/vendor/lib/libchromatix_imx208_common_video.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libchromatix_imx208_cpp_liveshot.so:system/vendor/lib/libchromatix_imx208_cpp_liveshot.so \
@@ -412,7 +419,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libmsapm_jni.so:system/vendor/lib/libmsapm_jni.so \
-    vendor/lge/g4-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/lge/g4-common/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/lge/g4-common/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
@@ -643,7 +649,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib64/libmmwfdsinkinterface.so:system/vendor/lib64/libmmwfdsinkinterface.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libmmwfdsrcinterface.so:system/vendor/lib64/libmmwfdsrcinterface.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libmsapm_jni.so:system/vendor/lib64/libmsapm_jni.so \
-    vendor/lge/g4-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
+    vendor/lge/g4-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:system/vendor/lib64/libOmxAmrwbplusDec.so \
@@ -769,11 +775,17 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/lge/g4-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/lge/g4-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/lge/g4-common/proprietary/etc/izat.conf:system/etc/izat.conf \
-    vendor/lge/g4-common/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lge/g4-common/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/lge/g4-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/lge/g4-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
+    vendor/lge/g4-common/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
+    vendor/lge/g4-common/proprietary/lib64/libconfigdb.so:system/lib64/libconfigdb.so \
+    vendor/lge/g4-common/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/lge/g4-common/proprietary/lib64/libmdmdetect.so:system/lib64/libmdmdetect.so \
+    vendor/lge/g4-common/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+    vendor/lge/g4-common/proprietary/lib64/libnetmgr.so:system/lib64/libnetmgr.so \
     vendor/lge/g4-common/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/lge/g4-common/proprietary/lib/libcurl.so:system/lib/libcurl.so \
     vendor/lge/g4-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
@@ -785,12 +797,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
     vendor/lge/g4-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/lge/g4-common/proprietary/lib/librilutils.so:system/lib/librilutils.so  \
-    vendor/lge/g4-common/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
-    vendor/lge/g4-common/proprietary/lib64/libconfigdb.so:system/lib64/libconfigdb.so \
-    vendor/lge/g4-common/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
-    vendor/lge/g4-common/proprietary/lib64/libmdmdetect.so:system/lib64/libmdmdetect.so \
-    vendor/lge/g4-common/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/lge/g4-common/proprietary/lib64/libnetmgr.so:system/lib64/libnetmgr.so \
     vendor/lge/g4-common/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
     vendor/lge/g4-common/proprietary/lib64/libvss_common_idl.so:system/lib64/libvss_common_idl.so \
     vendor/lge/g4-common/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
