@@ -104,6 +104,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
     vendor/lge/g4-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g4-common/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/lge/g4-common/proprietary/lib/libVDBase.so:system/lib/libVDBase.so \
+    vendor/lge/g4-common/proprietary/lib/libVDHDRAPI.so:system/lib/libVDHDRAPI.so \
+    vendor/lge/g4-common/proprietary/lib/libVDLowLightAPI.so:system/lib/libVDLowLightAPI.so \
     vendor/lge/g4-common/proprietary/vendor/bin/apk_delete.sh:system/vendor/bin/apk_delete.sh \
     vendor/lge/g4-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/lge/g4-common/proprietary/vendor/bin/boot_resource.sh:system/vendor/bin/boot_resource.sh \
