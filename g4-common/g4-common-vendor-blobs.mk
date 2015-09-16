@@ -95,7 +95,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/lge/g4-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
     vendor/lge/g4-common/proprietary/lib64/libril.so:system/lib64/libril.so \
-    vendor/lge/g4-common/proprietary/lib/hw/camera.vendor.msm8992.so:system/lib/hw/camera.vendor.msm8992.so \
+    vendor/lge/g4-common/proprietary/lib/hw/camera.vendor.msm8992.so:system/lib/hw/camera.msm8992.so \
     vendor/lge/g4-common/proprietary/lib/hw/wbc_hal.default.so:system/lib/hw/wbc_hal.default.so \
     vendor/lge/g4-common/proprietary/lib64/hw/wbc_hal.default.so:system/lib64/hw/wbc_hal.default.so \
     vendor/lge/g4-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
