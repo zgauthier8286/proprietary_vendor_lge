@@ -95,6 +95,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/lge/g4-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
     vendor/lge/g4-common/proprietary/lib64/libril.so:system/lib64/libril.so \
+    vendor/lge/g4-common/proprietary/lib/libalmcascore.so:system/lib/libalmcascore.so \
+    vendor/lge/g4-common/proprietary/lib/libalmcaswrap.so:system/lib/libalmcaswrap.so \
+    vendor/lge/g4-common/proprietary/lib/libarcsoft_beauty_shot.so:system/lib/libarcsoft_beauty_shot.so \
+    vendor/lge/g4-common/proprietary/lib/liblgmda.so:system/lib/liblgmda.so \
+    vendor/lge/g4-common/proprietary/lib64/libqdMetaData.so:system/lib64/libqdMetaData.so \
+    vendor/lge/g4-common/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
+    vendor/lge/g4-common/proprietary/lib64/libn2pm.so:system/lib64/libn2pm.so \
+    vendor/lge/g4-common/proprietary/lib/libn2pm.so:system/lib/libn2pm.so \
     vendor/lge/g4-common/proprietary/lib/hw/camera.vendor.msm8992.so:system/lib/hw/camera.msm8992.so \
     vendor/lge/g4-common/proprietary/lib/hw/wbc_hal.default.so:system/lib/hw/wbc_hal.default.so \
     vendor/lge/g4-common/proprietary/lib64/hw/wbc_hal.default.so:system/lib64/hw/wbc_hal.default.so \
@@ -104,6 +112,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
     vendor/lge/g4-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g4-common/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/lge/g4-common/proprietary/lib/libalhdri.so:system/lib/libalhdri.so \
     vendor/lge/g4-common/proprietary/lib/libVDBase.so:system/lib/libVDBase.so \
     vendor/lge/g4-common/proprietary/lib/libVDHDRAPI.so:system/lib/libVDHDRAPI.so \
     vendor/lge/g4-common/proprietary/lib/libVDLowLightAPI.so:system/lib/libVDLowLightAPI.so \
