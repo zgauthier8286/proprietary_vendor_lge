@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/lge/g4-common/proprietary/bin/radish:system/bin/radish \
     vendor/lge/g4-common/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/lge/g4-common/proprietary/bin/rild:system/bin/rild \
     vendor/lge/g4-common/proprietary/bin/rctd:system/bin/rctd \
     vendor/lge/g4-common/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/lge/g4-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
