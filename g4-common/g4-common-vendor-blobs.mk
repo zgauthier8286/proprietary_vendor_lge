@@ -134,7 +134,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_conc2_DEFn__BGTouchy6x6n__1_1__morph.trn32025.trn:system/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_conc2_DEFn__BGTouchy6x6n__1_1__morph.trn32025.trn \
     vendor/lge/g4-common/proprietary/vendor/etc/scve/textreco/chardecoder/_numpunc_parteng_font40_4transmeshr_morph.trn400.trn:system/vendor/etc/scve/textreco/chardecoder/_numpunc_parteng_font40_4transmeshr_morph.trn400.trn \
     vendor/lge/g4-common/proprietary/vendor/etc/scve/textreco/worddecoder/textreco_url_10000_2.bin:system/vendor/etc/scve/textreco/worddecoder/textreco_url_10000_2.bin \
-    vendor/lge/g4-common/proprietary/vendor/firmware/BCM4339_003.001.009.0108.0501_LGE_P1-EU_FM_ORC.hcd:system/vendor/firmware/BCM4339_003.001.009.0108.0501_LGE_P1-EU_FM_ORC.hcd \
+    vendor/lge/g4-common/proprietary/etc/firmware/BCM4339_003.001.009.0108.0501_LGE_P1-EU_FM_ORC.hcd:system/etc/firmware/BCM4339_003.001.009.0108.0501_LGE_P1-EU_FM_ORC.hcd \
     vendor/lge/g4-common/proprietary/vendor/firmware/libpn547_fw_C9.so:system/vendor/firmware/libpn547_fw_C9.so \
     vendor/lge/g4-common/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/lge/g4-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
