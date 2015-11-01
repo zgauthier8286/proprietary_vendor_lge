@@ -762,6 +762,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/g4-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/g4-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/lge/g4-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/lge/g4-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/lge/g4-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/lge/g4-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
