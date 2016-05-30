@@ -572,6 +572,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
     vendor/lge/g5-common/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/lge/g5-common/proprietary/bin/irsc_util:system/bin/irsc_util \
+	vendor/lge/g5-common/proprietary/bin/iop:system/bin/iop \
     vendor/lge/g5-common/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
     vendor/lge/g5-common/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/lge/g5-common/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
